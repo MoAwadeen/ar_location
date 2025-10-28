@@ -19,10 +19,10 @@ All requirements have been successfully implemented and the project is ready to 
 - Includes loading states and error handling
 
 ### 3. GPS Coordinates ✅
-All 3 artifact locations configured exactly as specified:
-- **Tutankhamun Mask**: 29.9939°N, 31.1206°E
-- **Grand Staircase**: 29.9940°N, 31.1205°E  
-- **Ramses Statue**: 29.9938°N, 31.1207°E
+All 3 artifact locations configured:
+- **Tutankhamun Mask**: 31.05206°N, 31.40004°E
+- **Grand Staircase**: 31.05204°N, 31.39999°E  
+- **Ramses Statue**: 31.05196°N, 31.39985°E
 
 ### 4. AR Pin Design ✅
 Each pin features:

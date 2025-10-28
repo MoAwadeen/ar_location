@@ -84,13 +84,13 @@ This project uses:
 
 ## 🎯 Testing Locations
 
-The app is configured for the Grand Egyptian Museum with these coordinates:
+The app is configured with these GPS coordinates:
 
 | Artifact | Latitude | Longitude |
 |----------|----------|-----------|
-| Tutankhamun Mask | 29.9939°N | 31.1206°E |
-| Grand Staircase | 29.9940°N | 31.1205°E |
-| Ramses II Statue | 29.9938°N | 31.1207°E |
+| Tutankhamun Mask | 31.05206°N | 31.40004°E |
+| Grand Staircase | 31.05204°N | 31.39999°E |
+| Ramses II Statue | 31.05196°N | 31.39985°E |
 
 **Note:** For testing in other locations, edit `assets/artifacts.json` with your local coordinates.
 

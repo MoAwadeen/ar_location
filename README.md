@@ -65,9 +65,9 @@ The following artifacts are pre-configured with their GPS coordinates:
 
 | Artifact | Latitude | Longitude | Description |
 |----------|----------|-----------|-------------|
-| **Tutankhamun Mask** | 29.9939°N | 31.1206°E | The golden funerary mask of Pharaoh Tutankhamun |
-| **Grand Staircase** | 29.9940°N | 31.1205°E | The magnificent central staircase of GEM |
-| **Ramses II Statue** | 29.9938°N | 31.1207°E | A colossal statue of Pharaoh Ramses II |
+| **Tutankhamun Mask** | 31.05206°N | 31.40004°E | The golden funerary mask of Pharaoh Tutankhamun |
+| **Grand Staircase** | 31.05204°N | 31.39999°E | The magnificent central staircase of GEM |
+| **Ramses II Statue** | 31.05196°N | 31.39985°E | A colossal statue of Pharaoh Ramses II |
 
 ## 📂 Project Structure
 
