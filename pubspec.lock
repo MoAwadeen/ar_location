@@ -345,7 +345,7 @@ packages:
     source: hosted
     version: "2.1.8"
   sensors_plus:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: sensors_plus
       sha256: "89e2bfc3d883743539ce5774a2b93df61effde40ff958ecad78cd66b1a8b8d52"
@@ -446,7 +446,7 @@ packages:
     source: hosted
     version: "4.5.1"
   vector_math:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: vector_math
       sha256: d530bd74fea330e6e364cda7a85019c434070188383e1cd8d9777ee586914c5b

@@ -5,6 +5,7 @@
     "description": "The golden funerary mask of the pharaoh Tutankhamun, one of the most iconic treasures of ancient Egypt. Discovered in 1922 by Howard Carter in the Valley of the Kings, this masterpiece dates back to the 14th century BCE.",
     "latitude": 31.05206,
     "longitude": 31.40004,
+    "altitude": 2.5,
     "iconName": "history"
   },
   {
@@ -13,6 +14,7 @@
     "description": "The magnificent Grand Staircase of the Grand Egyptian Museum, featuring a stunning display of colossal statues. This architectural marvel welcomes visitors to one of the world's largest archaeological museums.",
     "latitude": 31.05204,
     "longitude": 31.39999,
+    "altitude": 0.0,
     "iconName": "stairs"
   },
   {
@@ -21,6 +23,7 @@
     "description": "A monumental statue of Ramses II, one of ancient Egypt's most powerful pharaohs. This colossal limestone statue showcases the grandeur and artistic excellence of the New Kingdom period (circa 1279-1213 BCE).",
     "latitude": 31.05196,
     "longitude": 31.39985,
+    "altitude": 5.0,
     "iconName": "account_balance"
   }
 ]

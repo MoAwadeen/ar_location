@@ -43,6 +43,12 @@ dependencies:
   
   # GPS location services (required by ar_location_view)
   geolocator: ^13.0.4
+  
+  # Sensor monitoring for accelerometer/compass
+  sensors_plus: ^6.1.2
+  
+  # Vector math operations for Kalman filtering
+  vector_math: ^2.1.4
 
 dev_dependencies:
   flutter_test:
