@@ -45,5 +45,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- Permissions for AR Location -->
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires camera access to display AR artifacts at their GPS locations.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires location access to show AR artifacts at their real-world coordinates.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires location access to show AR artifacts at their real-world coordinates.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app requires location access to show AR artifacts at their real-world coordinates.</string>
 </dict>
 </plist>
