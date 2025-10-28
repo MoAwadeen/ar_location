@@ -324,6 +324,8 @@ class _ARTourScreenState extends State<ARTourScreen> {
           // AR Camera view with location annotations
           ArLocationWidget(
             annotations: annotations,
+            annotationWidth: 180,
+            annotationHeight: 85,
             showDebugInfoSensor: false,
             onLocationChange: (position) {
               // Handle location changes if needed
@@ -334,7 +336,7 @@ class _ARTourScreenState extends State<ARTourScreen> {
               return GestureDetector(
                 onTap: () => _showArtifactDetails(artifact),
                 child: Container(
-                  padding: const EdgeInsets.all(12),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
                   decoration: BoxDecoration(
                     color: Colors.blue.withValues(alpha: 0.9),
                     borderRadius: BorderRadius.circular(12),
@@ -348,21 +350,24 @@ class _ARTourScreenState extends State<ARTourScreen> {
                   ),
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(
                         _getIconData(artifact.iconName),
                         color: Colors.white,
-                        size: 32,
+                        size: 28,
                       ),
-                      const SizedBox(height: 8),
+                      const SizedBox(height: 6),
                       Text(
                         artifact.name,
                         style: const TextStyle(
                           color: Colors.white,
-                          fontSize: 14,
+                          fontSize: 12,
                           fontWeight: FontWeight.bold,
                         ),
                         textAlign: TextAlign.center,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ],
                   ),
