@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Ar Location</string>
+	<string>Goia Spots</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,14 +45,10 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-	<!-- Permissions for AR Location -->
+	<!-- Permissions for Goia Spots demo -->
 	<key>NSCameraUsageDescription</key>
-	<string>This app requires camera access to display AR artifacts at their GPS locations.</string>
+	<string>Camera access is required to show the Goia Spots experience.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app requires location access to show AR artifacts at their real-world coordinates.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app requires location access to show AR artifacts at their real-world coordinates.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app requires location access to show AR artifacts at their real-world coordinates.</string>
+	<string>Location access is required to display your current Goia Spot coordinates.</string>
 </dict>
 </plist>

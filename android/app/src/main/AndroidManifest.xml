@@ -1,9 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Permissions required for AR Location -->
+    <!-- Permissions required for camera + geolocation demo -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
     
     <!-- Camera features -->
     <uses-feature android:name="android.hardware.camera" android:required="true" />
@@ -11,7 +10,7 @@
     <uses-feature android:name="android.hardware.location.gps" android:required="true" />
     
     <application
-        android:label="ar_location"
+        android:label="Goia Spots"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
